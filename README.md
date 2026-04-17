@@ -22,13 +22,12 @@ Computes current–voltage characteristics, diffusion coefficient, mobility, and
 - `numpy`, `matplotlib`, `pandas`, `ase`, `pymatgen`
 
 Install with:  
-```bash
 pip install numpy matplotlib pandas ase pymatgen
 
 ## Input file: `param.txt`
 
 All simulation parameters are defined in a plain text file. Example:
-
+```bash
 # ------------------------------------------------------------
 # Structure
 cif_file = structure.cif
@@ -69,6 +68,7 @@ sweep_Vmax = 1.0
 sweep_dV = 0.05
 # For single bias (if do_sweep = no):
 Vbias = 0.5
+```
 
 ## Running the code
 
